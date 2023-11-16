@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 575px;
+  width: 575px;
   height: 385px;
   background: #1b244a;
   padding: 68px 85px 0;
@@ -29,6 +29,8 @@ body {
 @media screen and (max-width: 575px) {
   .container {
     gap: 10px;
+    width: 340px;
+    padding: 68px 10px 10px;
   }
 }
 
