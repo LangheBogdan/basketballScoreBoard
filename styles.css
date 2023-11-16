@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Cursed Timer Ulil";
+  src: url(assets/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf)
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container {
+  width: 575px;
+  height: 385px;
+  background: #1b244a;
+  padding: 68px 85px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container h3 {
+  font-size: 40px;
+  color: #fff;
+}
+.home,
+.guest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeScoreBoardText,
+.guestScoreBoardText {
+  width: 155px;
+  height: 120px;
+  background-color: #000;
+  margin-top: 21px;
+  color: #f94f6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  font-family: "Cursed Timer Ulil", sans-serif;
+}
+
+.homeScorePoints,
+.guestScorePoints {
+  margin-top: 35px;
+}
+
+.btn {
+  font-size: 18px;
+  width: 45px;
+  height: 45px;
+  color: #9aabd8;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #9aabd8;
+  color: #1b244a;
+  cursor: pointer;
+}
