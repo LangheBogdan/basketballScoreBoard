@@ -26,6 +26,11 @@ body {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 575px) {
+  .container {
+    gap: 10px;
+  }
+}
 
 .container h3 {
   font-size: 40px;
@@ -55,6 +60,13 @@ body {
 .homeScorePoints,
 .guestScorePoints {
   margin-top: 35px;
+}
+@media screen and (max-width: 575px) {
+  .homeScorePoints,
+  .guestScorePoints {
+    margin-top: 15px;
+    display: flex;
+  }
 }
 
 .btn {
