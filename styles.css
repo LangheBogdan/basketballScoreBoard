@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 575px;
+  max-width: 575px;
   height: 385px;
   background: #1b244a;
   padding: 68px 85px 0;
